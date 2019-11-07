@@ -1,5 +1,5 @@
 baseurl = "https://splash.good.rocks"
-title = "Site Title"
+title = "good.rocks"
 theme = "pulp"
 canonifyurls = true
 hasCJKLanguage = true
@@ -11,17 +11,16 @@ hasCJKLanguage = true
   series = "series"
 
 [params]
-    author = "Your Name"
-    avatar = "avatar.jpg"
+    author = "good.rocks"
+    avatar = "android-chrome-512x512.png"
     favicon = "favicon.ico"
     description = """
-        Please write anything here.
-        Profiles, backgrounds, favorite things etc.
+      coding
     """
     publicationYear = "2019"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
     # singlePageDateFormat = "January 2, 2006"
-    # custom_css = ["/css/custom.css"]
+    custom_css = ["/css/custom.css"]
     # custom_js = ["/js/custom.js"]
 
 [outputs]
@@ -31,26 +30,19 @@ hasCJKLanguage = true
     identifier = "blog"
     # name = "Blog" #If display text link, cancel comment out
     pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
-    url = "/blog/"
+    url = "https://good.rocks"
     weight = 10
-
-[[menu.main]]
-    identifier = "twitter"
-    # name = "Twitter"
-    pre = "<i class='fab fa-twitter fa-lg'></i>"
-    url = "https://twitter.com/username"
-    weight = 20
 
 [[menu.main]]
     identifier = "github"
     # name = "GitHub"
     pre = "<i class='fab fa-github fa-lg'></i>"
-    url = "https://github.com/username"
+    url = "https://github.com/goodrocks"
     weight = 30
 
 [[menu.main]]
     identifier = "email"
     # name = "Email"
     pre = "<i class='fa fa-envelope fa-lg'></i>"
-    url = "mailto:username@example.com"
+    url = "mailto:email@good.rocks"
     weight = 40
