@@ -1,13 +1,13 @@
 .author  {
-    font-family: Consolas, Courier New, monospace;
+    font-family: Courier New, Courier, monospace;
 }
 
-.author a:link {
+ a:link {
     text-decoration: none;
 }
 
 .description {
-    font-family: Consolas, Courier New, monospace;
+    font-family: Courier New, Courier, monospace;
     margin-bottom: 32px;
 }
 
