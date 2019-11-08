@@ -12,11 +12,9 @@ hasCJKLanguage = true
 
 [params]
     author = "good.rocks"
-    avatar = "android-chrome-512x512.png"
+    avatar = "avatar.png"
     favicon = "favicon.ico"
-    description = """
-      coding
-    """
+    description = """coding"""
     publicationYear = "2019"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
     # singlePageDateFormat = "January 2, 2006"

@@ -12,15 +12,16 @@
                     <img src="/img/avatar-border.svg" alt="avatar-border">
                 </div>
                 <!-- author -->
-                <a href="{{ .Site.Params.Author }}" style="text-decoration:none">
-                    <h1 class="author">{{ .Site.Params.Author }}</h1>
-                </a>
+                <div class="author">
+                    <h1>
+                        <a href="https://{{ .Site.Params.Author }}">{{ .Site.Params.Author }}</a>
+                    </h1>
+                </div>
+
             </header>
             <!-- description -->
             <div class="description">
-                <p>
-                    {{ .Site.Params.description | safeHTML }}
-                </p>
+                <p>{{ .Site.Params.description | safeHTML }}</p>
             </div>
             <!-- navigation -->
             <nav>
