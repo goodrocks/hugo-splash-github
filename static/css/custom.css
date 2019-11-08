@@ -2,7 +2,7 @@
     font-family: Courier New, Courier, monospace;
 }
 
- a:link {
+ .author a:link {
     text-decoration: none;
 }
 
