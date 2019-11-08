@@ -2,7 +2,7 @@
     font-family: Consolas, Courier New, monospace;
 }
 
-.author, a:link {
+.author a:link {
     text-decoration: none;
 }
 
@@ -11,6 +11,6 @@
     margin-bottom: 32px;
 }
 
-:hover {
+a:hover {
     color: #34495e;
 }
