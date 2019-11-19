@@ -1,4 +1,4 @@
-baseurl = "https://splash.good.rocks"
+baseurl = "https://good.rocks"
 title = "good.rocks"
 theme = "pulp"
 canonifyurls = true
